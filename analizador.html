@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hero Stat Analyzer</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="game-card">
+        <h1>Hero Rank Analyzer</h1>
+        <p>Ingresá los datos de tu personaje para conocer tu Rango Global.</p>
+        
+        <input type="text" id="nombreHeroe" placeholder="Nombre del Héroe">
+        <input type="number" id="nivel" placeholder="Nivel (1-100)">
+        <input type="number" id="victorias" placeholder="Partidas Ganadas">
+        <input type="number" id="kills" placeholder="Kills Totales">
+        
+        <button onclick="analizarPoder()">ANALIZAR PODER</button>
+
+        <div id="resultado" class="pantalla-stats">
+        
+        </div>
+    </div>
+    <script src="codigo.js"></script>
+</body>
+</html>
