@@ -1,4 +1,5 @@
 body { 
+     background-image: url(imagen\ videojuego.jpg);
     background-color: #0d1117; 
     color: #00ff41; 
     font-family: 'Courier New', Courier, monospace;
@@ -33,3 +34,4 @@ button:hover { background-color: #008f11; color: white; }
     padding: 15px; border-radius: 5px; font-weight: bold; transition: 0.3s;
 }
 .boton-link:hover { background-color: white; box-shadow: 0 0 10px white; }
+
